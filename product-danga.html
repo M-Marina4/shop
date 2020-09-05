@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+  <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <title>Hello, world!</title>
+</head>
+<body>
+ <div class="container-fluid ">
+   <div class="row  py-2"  style="background-color:pink">
+    <p class=" col-6  font-weight-bold text-black p-2 bd-highlight d-none d-sm-none d-md-none d-lg-block d-xl-block mx-2">Worldwide Shipping!</p>
+    <div class="col-6 col-sm-6 col-md-6 col-lg col-xl ">
+     <select class="custom-select">
+       <option selected>AM</option>
+       <option value="2">RU</option>
+       <option value="3">ENG</option>
+     </select>
+   </div>
+   <div class="col-6 col-sm-6 col-md-6 col-lg col-xl ">
+     <select class="custom-select">
+      <option>֏ AMD</option>
+      <option>$ USD</option>
+      <option>€ EUR</option>
+    </select>
+  </div>
+
+  <div class="col-6 col-sm-6 col-md-6 col-lg-auto col-xl-auto d-none d-sm-none d-md-none d-lg-block d-xl-block mx-2">
+    <a class="btn btn-danger " href="wishlist.html">
+      Wishlist <span class="badge badge-light">4</span>
+    </a>
+  </div>
+</div>
+<div class="row py-2"  style="background-color:palevioletred;">
+  <div class="col mx-3" style="font-family: 'Pacifico', cursive; font-size:80 ;">
+    <a href="#" class="text-decoration-none h5 text-danger font-weight-bold"  style="font-size:38px;">
+      Animenia</a>
+  </div>
+  <div class="col-auto d-none d-sm-none d-md-none d-lg-block d-xl-block">
+    <form class="bu form-inline my-2 my-lg-0">
+      <input class="  form-control mr-sm-2"  type="search" placeholder="Search" aria-label="Search">
+      <button class=" btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  
+  <div class="col-auto">
+    <div class="dropdown">
+      <div class="row">
+      <a class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        My Account
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#registerBackdrop">Register</a>
+        <a class="dropdown-item" href="#">My orders</a>
+        <a class="dropdown-item" href="myaccount.html">Account Settings</a>
+      </div>
+      <a href="cart.html" class="mx-3"><i class="fas fa-shopping-cart"style="font-size:40px;color:red"></i></a>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+<nav class="row navbar navbar-expand-lg navbar-dark bg-dark ">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Clothing
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="shop-tshirt.html">T-shirt</a>
+          <a class="dropdown-item" href="shop-hoodie.html">Sweatshirt and Hoodes</a>
+          
+          <a class="dropdown-item" href="shop-jacket.html">Jackets</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Accessories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Keychains</a>
+          <a class="dropdown-item" href="#">Hats</a>
+          
+          <a class="dropdown-item" href="#">Cosplay</a>
+          <a class="dropdown-item" href="#">Necklases</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Figures
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Fairy Tail</a>
+          <a class="dropdown-item" href="#">Naruto</a>
+          
+          <a class="dropdown-item" href="#">Bangu Stray Dogs</a>
+          <a class="dropdown-item" href="#">HunterXHunter</a>
+          <a class="dropdown-item" href="#">One Piece</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+
+    <div class="row">
+        <nav aria-label="breadcrumb ">
+            <ol class="breadcrumb  my-2 ml-5 col-12">
+              <li class="breadcrumb-item "><a href="shop.html" class="text-decoration-none text-dark">Clothing</a></li>
+              <li class="breadcrumb-item "><a href="shop-tshirt.html" class="text-decoration-none text-dark">T-shirt</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="product-danga.html" class="text-decoration-none text-dark">Danganronpa T-shirt</a></li>
+              
+            </ol>
+          </nav>
+          
+          <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 pl-1 my-2 mx-3">
+            <select class="custom-select">
+             <option>Price Low To High</option>
+             <option>Price High To Low</option>
+             <option>Any Price</option>
+           </select>
+        </div> 
+  </div>
+
+
+ <div class="my-3 mx-5 mr-60">
+  <a class=" h1 text-decoration-none text-dark">Danganronpa T-shirt</a>
+</div>
+    <div class="row my-2">
+      <div class="col-lg-2  ">
+        <ul class="image_list d-none d-sm-none d-md-none d-lg-block d-xl-block">
+            <li data-image="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg"><img src="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg" alt=""></li>
+            <li data-image="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg"><img src="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg" alt=""></li>
+            <li data-image="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg"><img src="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div class="col-lg-4 col-sm-12 ">
+      <div class="image_selected"><img src="https://ae01.alicdn.com/kf/HTB1t4UHN9zqK1RjSZPxq6A4tVXac/New-Danganronpa-V3-cosplay-T-shirt-Anime-Ouma-Kokichi-Dangan-ronpa-T-Shirt-Short-Sleeve-Tops.jpg" class="img-fluid " alt=""></div>
+  </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mx-4">
+      <h5 class="mt-3 mb-1 ">Size:</h5>
+      <select class="custom-select  col-3">
+        <option selected>XXS</option>
+        <option value="2">XS</option>
+        <option value="2">M</option>
+        <option value="3">L</option>
+        <option value="3">XL</option>
+      </select>
+      <ul class="my-4 ">
+        <li> 100% Cotton </li>
+        <li>Tumble dry low</li>
+        <li>STAND OUT STYLE - Get noticed for your individual flair in this daring and detailed graphic print men?s t-shirt.</li>
+        <li>BOLD DESIGN - No one will overlook you in this cool graphic print design that?ll make you stand out for all the right reasons.</li>
+        <li>SUPER COTTON COMFORT - 100% cotton guarantees this will be one of your softest regular wear t-shirts.</li>
+        <li>100% AUTHENTIC GEAR - Officially licensed merchandise to keep you in style and legit.</li>
+      </ul>
+     
+        <h3 class="my-3 mx-3">Price $25</h3>
+        <div class="row mx-3 my-3">
+        <h5>Rating:</h5>
+        <i class="fas fa-star mx-2 mb-2" style="font-size:20px;color:yellow"></i>
+        <i class="fas fa-star mx-2 mb-2" style="font-size:20px;color:yellow"></i>
+        <i class="fas fa-star mx-2 mb-2" style="font-size:20px;color:yellow"></i>
+        <i class="fas fa-star mx-2 mb-2" style="font-size:20px;color:yellow"></i>
+        <i class="far fa-star mx-2 mb-2" style="font-size:20px;color:yellow"></i>
+      </div>
+        <div class="row mx-1">
+        <a href="cart.html" class="btn btn-danger my-1 mx-3">Add to card</a>
+        <a href="#" class="btn btn-danger my-1 mx-3">Buy Now</a>
+        </div>
+        <div class="my-2 mx-3">
+          <i class="fab fa-cc-paypal" style="font-size:68px;color:orange"></i>
+          <i class="fab fa-cc-visa" style="font-size:68px;color:blue"></i>
+          <i class="fab fa-cc-mastercard" style="font-size:68px;color:red"></i>
+          <i class="fab fa-cc-amazon-pay" style="font-size:68px;color:greenyellow"></i>
+        </div>
+        </div>
+    </div>
+
+  
+
+        <div class="col text-center my-5">
+            <div class="section_title new_arrivals_title"></div>
+              <h2 class="">You May Also Like</h2>
+            </div>
+            <div class="container-fluid">
+                <div class="card-deck">
+                    <div class="card mb-4" >
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/513Z998riWL._AC_UX522_.jpg"  class="card-img-top img-fluid" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <div class="text-center mt-auto">
+                            <a href="#" class="card-title text-decoration-none text-center ">Danganronpa Jacket</a>
+                        </div>
+                          <p class="card-text text-center">18$</p>
+                          <div class="text-center">
+                            <a href="#" class="btn btn-danger btn-block">Add to card</a>
+                          </div>
+                          </div>
+                        </div>
+                     <div class="card mb-4">
+                       <img src="https://ae01.alicdn.com/kf/HTB1Pc6FPVXXXXcTXXXXq6xXFXXXm/new-arrival-Anime-One-Punch-Man-Hoodies-OK-Printed-Men-Sweatshirts-2019-spring-winter-warm-fleece.jpg_640x640.jpg?1000" class="card-img-top img-fluid h-50" alt="...">
+                       <div class="card-body d-flex flex-column">
+                         <div class="text-center mt-auto">
+                         <a href="#" class="card-title text-decoration-none text-center ">One Punch Men Hoodie</a>
+                       </div>
+                         <p class="card-text text-center">30$</p>
+                         <div class="text-center">
+                           <a href="#" class="btn btn-danger ">Add to card</a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="w-100 d-none d-sm-block d-md-none d-lg-none"><!-- wrap every 2 on sm--></div>
+                     <div class="card mb-4" >
+                       <img src="https://images-na.ssl-images-amazon.com/images/I/61P4em4zjQL._AC_UX342_.jpg"  class="card-img-top img-fluid h-50" alt="...">
+                       <div class="card-body d-flex flex-column">
+                         <div class="text-center mt-auto">
+                         <a href="#" class="card-title text-decoration-none text-center ">Re:Zero Jacket Hoodie</a>
+                       </div>
+                         <p class="card-text text-center">10$</p>
+                         <div class="text-center ">
+                           <a href="#" class="btn btn-danger ">Add to card</a>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="w-100 d-none d-md-none d-lg-none"><!-- wrap every 3 on md--></div>
+                     <div class="card mb-4">
+                       <img src="https://ae01.alicdn.com/kf/HTB1pYgvdN1YBuNjy1zcq6zNcXXaJ/Tokyo-Ghoul-T-Shirt-Fashion-Men-Women-Clothes-Anime-Short-Sleeve-T-Shirt-Kaneki-Ken-Cosplay.jpg" class="card-img-top img-fluid h-50" alt="...">
+                       <div class="card-body d-flex flex-column">
+                         <div class="text-center mt-auto">
+                         <a href="#" class="card-title text-decoration-none text-center ">Tokyo Ghoul T-Shirt</a>
+                       </div>
+                         <p class="card-text text-center">18$</p>
+                         <div class="text-center">
+                           <a href="#" class="btn btn-danger ">Add to card</a>
+                         </div>
+                         </div>
+                       </div> 
+                     </div>
+                     <div class="row justify-content-center my-4 mx-auto">
+                     <nav aria-label="Page navigation example">
+                      <ul class="pagination ">
+                        <li class="page-item ">
+                          <a class="page-link" href="product-fairyt.html" tabindex="-1" >Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="product-narutoh.html">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+          
+    </div>
+    </div>
+    <!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer bg-dark">
+
+    <!-- Footer Links -->
+  
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <a class="font-weight-bold text-uppercase mt-3 mb-4 text-white h5 text-decoration-none">HELPFUL LINKS</a>
+          <!-- <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5> -->
+  
+          <ul class="list-unstyled ">
+            <li >
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Home</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Clothing</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Asseccories</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Figures</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Blog</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100  d-none d-sm-none d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <a href="#" class="font-weight-bold text-uppercase mt-3 mb-4 text-white h5 text-decoration-none">HELP & CUSTOMER SERVICE</a>
+  
+          <ul class="list-unstyled text-decoration-none">
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">FAQ</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Delayed Pre-Orders List</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Shipping & Returns</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary  d-none d-sm-none d-md-none d-lg-block d-xl-block">Sezzle FAQ</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100  d-none d-sm-none d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <a href="#" class="font-weight-bold text-uppercase mt-3 mb-4 text-white h5 text-decoration-none">CONTACT US</a>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Email</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Phone</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Address</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Country</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100  d-none d-sm-none d-md-none ">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <a href="#" class="mb-4 font-weight-bold text-uppercase mt-3 mb-4 text-white h5 text-decoration-none">ABOUT ANIMENIA</a>
+  
+          <ul class=" list-unstyled text-secondary">
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Animenia News</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Animenia Policy</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Terms Of Service</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-secondary d-none d-sm-none d-md-none d-lg-block d-xl-block">Privacy Policy</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+    
+  
+  
+    <div class="footer-copyright  text-center py-3 bg-secondary ">
+      <!-- <p class="text-white  ml-15 mr-10 d-none d-sm-none d-md-none d-lg-block d-xl-block float-lg-left ">find us on:</p> -->
+      <div class="social-buttons mx-auto mx-sm-auto mx-md-auto mx-lg-auto mx-xl-auto ml-lg-30 ">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+  
+      </div>
+      <div class="copyright   mt-lg-0  ">© 2020 Copyright:Tumo Center For Creative Technologies
+  
+      </div>
+    </div>
+    <!-- Copyright -->
+    
+  </footer>
+  <!-- Footer -->
+  
+  
+  
+  
+  
+  
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="registerBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Check me out
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+  </html>
+        </div>
+     
+  
+  
